@@ -22,7 +22,7 @@ export const putDb = async (content) => {
   console.error('Data saved', result);
 }
 
-// TODO: Gets all the content from the database
+// Gets all the content from the database
 export const getDb = async () => {
   const jateDB = await openDB('jate', 1);
   const tx = jateDb.transaction('jate', 'readonly');
