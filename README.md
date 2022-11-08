@@ -9,7 +9,7 @@
   * [Questions](#questions)
 
 ## Description
-A simple text editor app that can be used both online and offline. 
+A simple text editor app that can be used both online and offline. When app gets closed out or refreshed, any text will be saved and will appear when app is opened again or refreshed.
 
 ## Installation
 To install needed dependencies for the app, user will need to clone the app. Then, user will need to run the command `npm install` to install all dependencies (they are all included already in package.json)
